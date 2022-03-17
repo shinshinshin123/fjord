@@ -35,10 +35,19 @@ p menu[:tea]
 # puts "紅茶はありませんか？" unless menu.has_key?(:tea)
 
 #問６ わからん
-
-
+#回答
+# menu = {coffee: 300, caffee_latte: 400}
+# puts "カフェラテください" if menu [:caffee_latte] <= 500
 
 #問７ わからん
+#回答
+# hasu = {}
+# hash.default = 0
+# array = "cafalatte".chars #一文字ずつ区切る
+# array.each do |x|
+#   hash[x] += 1
+# end
+# p hash
 
 #問8
 menu = {"コーヒー" => 300, "カフェラテ" => 400}
@@ -47,11 +56,29 @@ menu.each do |key, value|
 end
 
 #問９ わからん
+#回答
+# menu = {"コーヒー" => 300, "カフェラテ" => 400}
+# menu.each do |key, value|
+#   puts "#{key}-#{value}円" if value >= 350
+# end
 
 #問10 わからん
+#回答
+# menu = {}
+# menu.each do |key, value|
+#   puts "#{key}-#{value}円" if value >= 350
+# end
 
 #問11
 menu = {"コーヒー" => 300, "カフェラテ" => 400}
 menu.each_key do |key|
   puts key
 end
+
+#回答
+# menu = {"コーヒー" => 300, "カフェラテ" => 400}
+# keys = []
+# menu.each do |key, value|
+#   keys.push(key)
+# end
+# p keys
