@@ -1,0 +1,2 @@
+module WhipperdCream
+end
